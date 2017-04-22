@@ -1,6 +1,6 @@
 {% set name = "sphinx-gallery" %}
-{% set version = "0.1.8" %}
-{% set sha256 = "c91e68dceb6f6a1dc488d6f39fbb417b7a1d1ff130d3e6311965f5ecb351ec0c" %}
+{% set version = "0.1.10" %}
+{% set sha256 = "0c8e1b4f11cc6c6aa150c9ffaa9d67105178dbea97394a60e1e42a745ecaf365" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,7 @@ requirements:
   build:
     - python
     - setuptools
-    - nose
+    - pytest-runner
   run:
     - python
     - matplotlib
