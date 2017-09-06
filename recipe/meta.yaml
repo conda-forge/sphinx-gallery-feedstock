@@ -1,6 +1,6 @@
 {% set name = "sphinx-gallery" %}
-{% set version = "0.1.11" %}
-{% set sha256 = "312c1ccd04dcb6b7cc8c1f9d12d4464470e91f17b22211b264139b7aedce46a8" %}
+{% set version = "0.1.12" %}
+{% set sha256 = "16ede5720d3d78631e20f47196fadf0f2d19d61908313160aa485557a7da0ccb" %}
 
 package:
   name: {{ name|lower }}
