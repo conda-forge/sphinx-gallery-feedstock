@@ -25,6 +25,7 @@ requirements:
     - matplotlib
     - pillow
     - sphinx
+    - beautifulsoup4
 
 test:
   imports:
