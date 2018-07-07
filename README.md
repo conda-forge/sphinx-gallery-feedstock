@@ -17,14 +17,15 @@ be an independent general purpose extension.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinx-gallery-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinx-gallery-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinx-gallery-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinx-gallery-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sphinx-gallery-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-gallery/badges/version.svg)](https://anaconda.org/conda-forge/sphinx-gallery)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-gallery/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinx-gallery)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx--gallery-green.svg)](https://anaconda.org/conda-forge/sphinx-gallery) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx-gallery.svg)](https://anaconda.org/conda-forge/sphinx-gallery) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx-gallery.svg)](https://anaconda.org/conda-forge/sphinx-gallery) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx-gallery.svg)](https://anaconda.org/conda-forge/sphinx-gallery) |
 
 Installing sphinx-gallery
 =========================
@@ -69,6 +70,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
