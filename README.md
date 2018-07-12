@@ -17,14 +17,16 @@ be an independent general purpose extension.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinx-gallery-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinx-gallery-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinx-gallery-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinx-gallery-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sphinx-gallery-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/sphinx-gallery-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sphinx-gallery-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sphinx-gallery-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sphinx-gallery-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-gallery/badges/version.svg)](https://anaconda.org/conda-forge/sphinx-gallery)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-gallery/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinx-gallery)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinx--gallery-green.svg)](https://anaconda.org/conda-forge/sphinx-gallery) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinx-gallery.svg)](https://anaconda.org/conda-forge/sphinx-gallery) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinx-gallery.svg)](https://anaconda.org/conda-forge/sphinx-gallery) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinx-gallery.svg)](https://anaconda.org/conda-forge/sphinx-gallery) |
 
 Installing sphinx-gallery
 =========================
