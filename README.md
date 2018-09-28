@@ -17,8 +17,9 @@ be an independent general purpose extension.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sphinx-gallery-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sphinx-gallery-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sphinx-gallery-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/sphinx-gallery-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sphinx-gallery-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sphinx-gallery-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sphinx-gallery-feedstock/branch/master)
 
 Current release info
 ====================
