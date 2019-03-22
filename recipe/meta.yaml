@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: sphinx-gallery
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx-gallery/sphinx-gallery-{{ version }}.tar.gz
-  sha256: b49356b5516cc7dab67b1b378f6bf8146fe2372ee73d5e1ea2c483a2e3f4f182
+  sha256: 43d93d974b2770da94c26ae39fd7001ca6495439a950075e3ff5c28c152b3396
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
