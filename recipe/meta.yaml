@@ -38,7 +38,7 @@ about:
     A Sphinx extension that builds an HTML gallery of examples from any set of
     Python scripts. It is extracted from the scikit-learn project and aims to
     be an independent general purpose extension.
-  doc_url: https://sphinx-gallery.readthedocs.io
+  doc_url: https://sphinx-gallery.github.io
   dev_url: https://github.com/sphinx-gallery/sphinx-gallery
 
 extra:
