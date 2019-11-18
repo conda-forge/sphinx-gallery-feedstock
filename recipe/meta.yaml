@@ -10,7 +10,9 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  noarch: python
+  skip: True  # [py2k]
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
@@ -21,7 +23,7 @@ requirements:
     - python
     - matplotlib
     - pillow
-    - sphinx
+    - sphinx >=1.8.3
 
 test:
   imports:
@@ -30,7 +32,7 @@ test:
 
 about:
   home: https://github.com/sphinx-gallery/sphinx-gallery
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'Sphinx extension for automatic generation of an example gallery'
