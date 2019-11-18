@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: sphinx-gallery
@@ -6,22 +6,23 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx-gallery/sphinx-gallery-{{ version }}.tar.gz
-  sha256: a286cf2eea47ce838a0754ecef617616afb1f40e41e52fe765723464f52e0c2f
+  sha256: f3a50dc96f20858f2cd52b9bc5d2ec359039e3d1b8e0825b5310ff0c8fcea032
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
-    - python
+    - python >=3
     - pip
     - pytest-runner
   run:
-    - python
+    - python >=3
     - matplotlib
     - pillow
-    - sphinx
+    - sphinx >=1.8.3
 
 test:
   imports:
@@ -30,7 +31,7 @@ test:
 
 about:
   home: https://github.com/sphinx-gallery/sphinx-gallery
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'Sphinx extension for automatic generation of an example gallery'
