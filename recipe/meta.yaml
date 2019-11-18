@@ -11,16 +11,15 @@ source:
 build:
   number: 0
   noarch: python
-  skip: True  # [py2k]
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
-    - python
+    - python >=3
     - pip
     - pytest-runner
   run:
-    - python
+    - python >=3
     - matplotlib
     - pillow
     - sphinx >=1.8.3
