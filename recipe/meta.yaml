@@ -9,7 +9,7 @@ source:
   sha256: f3a50dc96f20858f2cd52b9bc5d2ec359039e3d1b8e0825b5310ff0c8fcea032
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -20,7 +20,7 @@ requirements:
     - pytest-runner
   run:
     - python >=3
-    - matplotlib
+    - matplotlib-base
     - pillow
     - sphinx >=1.8.3
 
