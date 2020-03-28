@@ -25,6 +25,10 @@ requirements:
     - sphinx >=1.8.3
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - sphinx_gallery
     - sphinx_gallery.gen_gallery
