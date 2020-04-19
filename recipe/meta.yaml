@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: sphinx-gallery
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx-gallery/sphinx-gallery-{{ version }}.tar.gz
-  sha256: fd275c4945d1ee05f13211317722ad28520a3dff1d12651968b739d7f20e3eb9
+  sha256: 6941e268f5f11e1eaa2cc1a022c4504d0a9e555e1d609c4baa78058c2e9291c2
 
 build:
   number: 0
