@@ -5,7 +5,7 @@ Home: https://github.com/sphinx-gallery/sphinx-gallery
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Sphinx extension for automatic generation of an example gallery
 
