@@ -5,9 +5,13 @@ Home: https://github.com/sphinx-gallery/sphinx-gallery
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-gallery-feedstock/blob/master/LICENSE.txt)
 
 Summary: Sphinx extension for automatic generation of an example gallery
+
+Development: https://github.com/sphinx-gallery/sphinx-gallery
+
+Documentation: https://sphinx-gallery.github.io
 
 A Sphinx extension that builds an HTML gallery of examples from any set of
 Python scripts. It is extracted from the scikit-learn project and aims to
