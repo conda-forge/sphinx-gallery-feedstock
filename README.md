@@ -153,6 +153,7 @@ Feedstock Maintainers
 =====================
 
 * [@dfroger](https://github.com/dfroger/)
+* [@dopplershift](https://github.com/dopplershift/)
 * [@leouieda](https://github.com/leouieda/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
