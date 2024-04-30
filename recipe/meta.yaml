@@ -1,12 +1,12 @@
-{% set version = "0.15.0" %}
+{% set version = "0.16.0" %}
 
 package:
   name: sphinx-gallery
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/sphinx-gallery/sphinx-gallery-{{ version }}.tar.gz
-  sha256: 7217fe98f8c4cce248db798c48f34183e4cdb277d2381e188182f92a14ec26b7
+  url: https://pypi.io/packages/source/s/sphinx-gallery/sphinx_gallery-{{ version }}.tar.gz
+  sha256: 3912765bc5e7b5451dc471ad50ead808a9752280b23fd2ec4277719a5ef68e42
 
 build:
   number: 0
@@ -15,14 +15,14 @@ build:
 
 requirements:
   host:
-    - python >=3
+    - python >=3.8
     - pip
-    - pytest-runner
+    - setuptools
+    - setuptools-scm
   run:
-    - python >=3
-    - matplotlib-base
+    - python >=3.8
     - pillow
-    - sphinx >=1.8.3
+    - sphinx >=4
 
 test:
   requires:
@@ -51,3 +51,4 @@ extra:
     - dfroger
     - leouieda
     - ocefpaf
+    - dopplershift
